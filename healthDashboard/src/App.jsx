@@ -135,7 +135,7 @@ function App() {
             <h2 className="text-xl sm:text-2xl font-bold text-gray-900">Dashboard</h2>
           </div>
           <div className="flex items-center space-x-3">
-            <div className="relative">
+            <div className="relative hidden md:block">
               <Search className="w-5 h-5 absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
               <input
                 type="text"
@@ -143,10 +143,10 @@ function App() {
                 className="pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
-            <Bell className="w-6 h-6 text-gray-600" />
+            <Bell className="w-6 h-6 text-gray-600 hidden md:block" />
             <div className="w-9 h-9 bg-cyan-400 rounded-full flex items-center justify-center text-white">👤</div>
             <div className="w-9 h-9 bg-blue-600 rounded-full flex items-center justify-center cursor-pointer">
-              <Plus className="w-4 h-4 text-white" />
+              <Plus className="w-4 h-4 text-white " />
             </div>
           </div>
         </header>
