@@ -21,9 +21,9 @@ function App() {
   ];
 
   const healthMetrics = [
-    { name: 'Lungs', date: '26 Oct 2021', progress: 75, color: 'bg-red-400', icon: '🫁' },
-    { name: 'Teeth', date: '26 Oct 2021', progress: 60, color: 'bg-green-400', icon: '🦷' },
-    { name: 'Bone', date: '26 Oct 2021', progress: 45, color: 'bg-orange-400', icon: '🦴' }
+    { name: 'Lungs', date: '26 Oct 2024', progress: 75, color: 'bg-red-400', icon: '🫁' },
+    { name: 'Teeth', date: '26 Oct 2024', progress: 60, color: 'bg-green-400', icon: '🦷' },
+    { name: 'Bone', date: '26 Oct 2024', progress: 45, color: 'bg-orange-400', icon: '🦴' }
   ];
 
   const calendarDays = [
@@ -193,7 +193,7 @@ function App() {
             <div className="flex justify-between items-center mb-4">
               <div>
                 <p className="text-sm text-gray-500">This Week</p>
-                <h3 className="text-lg font-bold">October 2021</h3>
+                <h3 className="text-lg font-bold">October 2024</h3>
               </div>
               <div className="flex gap-2">
                 <ChevronLeft className="text-gray-400 cursor-pointer" />
