@@ -174,7 +174,7 @@ function App() {
                     <span className="text-xl">🫁</span>
                     <div>
                       <h4 className="font-medium">Lungs</h4>
-                      <p className="text-sm text-gray-500">26 Oct 2021</p>
+                      <p className="text-sm text-gray-500">23 june 2025</p>
                     </div>
                   </div>
                   <div className="w-24 h-2 bg-gray-200 rounded-full">
